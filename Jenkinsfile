@@ -6,6 +6,11 @@ pipeline {
 	echo "Welcome to build stage"
 	}
 }
+    stage('Maven'){
+			steps{
+	echo "We are using maven"
+}
+	}
 		stage('Test'){
 			steps{
 	echo "This is Test stage"
